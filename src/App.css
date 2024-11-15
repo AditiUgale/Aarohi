@@ -1,0 +1,31 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header {
+  background-color: #9f7dba;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.block {
+  flex: 1;
+  padding: 2rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.footer {
+  background-color: #734cae;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
